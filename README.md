@@ -1,16 +1,18 @@
-# React + Vite
+# MapMyMeds Protocol 📍💊
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MapMyMeds is a decentralized routing and clearing layer for the global pharmaceutical supply chain. The platform provides real-time medication visibility, cross-system inventory interoperability (e.g., Columbus integrations), and automated batch expiration notifications to drastically reduce drug waste and solve critical medication shortages for healthcare providers.
 
-Currently, two official plugins are available:
+This repository contains the high-conversion, responsive front-end landing page and waitlist architecture built with **React**, **Vite**, and **Tailwind CSS**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Quick Start (Local Development)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Ensure you have [Node.js](https://nodejs.org/) installed, then run the following commands in your terminal:
 
-## Expanding the ESLint configuration
+```bash
+# 1. Install dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 2. Start the local development server
+npm run dev
